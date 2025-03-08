@@ -6,7 +6,9 @@ nn.h is a minimalist neural network library implemented in C. Designed to harnes
 
 ## Implementation & Comparison
 To demonstrate the optimization capabilities of this library, an adder circuit is implemented using nn.h. The neural network has one hidden layer with 2 * bits + 1 neurons. Increasing the number of bits results in a larger hidden layer (having more neurons), adapting the network's complexity accordingly. This is a real a real time loss minimisation for a 4 bit adder data:
-![Demo Screenshot]https://github.com/itoufik/Building-a-NN-library-in-C/blob/master/demos/loss_plot.png).
+This is a real-time loss minimization for a 4-bit adder data:  
+![Loss Optimisation](https://github.com/itoufik/Building-a-NN-library-in-C/blob/master/demos/loss_plot.png)
+.
 
 This is the comparision with PyTorch keeping all the hyperpameters same:
 
